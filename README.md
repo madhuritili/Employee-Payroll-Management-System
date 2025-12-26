@@ -1,7 +1,4 @@
-# Employee-Payroll-Management-System
-A Python-based console-driven employee payroll management system that calculates salaries using attendance data, employee type, tax deductions, and overtime bonuses, implemented with object-oriented programming principles.
-
-# Employee Payroll Management System (SEPMS)
+# Employee Payroll Management System
 
 ## 📌 Project Overview
 A console-driven employee payroll management system developed using Python and object-oriented programming to calculate salaries based on attendance, employee type, tax deductions, and overtime bonuses.  
@@ -29,66 +26,68 @@ The application supports persistent data storage and generates payslips for empl
 
 ---
 
-## 📂 Project Structure
+## ▶️ How to Run the Project
 
-employee-payroll-system/<br>
-│<br>
-├── main.py<br>
-│<br>
+1. **Clone the repository**
+git clone https://github.com/your-username/employee-payroll-system.git
+Navigate to the project directory
+
+Co
+cd employee-payroll-system
+Run the application
+
+bash
+Copy code
+python main.py
+📂 Project Structure
+markdown
+Copy code
+employee-payroll-system/
+├── main.py
 ├── payroll/
-│ ├── init.py
-│ ├── employee.py
-│ └── payroll.py
-│
+│   ├── __init__.py
+│   ├── employee.py
+│   └── payroll.py
 ├── attendance/
-│ ├── init.py
-│ └── attendance.py│
+│   ├── __init__.py
+│   └── attendance.py
 ├── employees.txt
 ├── attendance.txt
 ├── payslips.txt
 └── README.md
+📄 Data Files
+employees.txt – Stores employee details
 
+attendance.txt – Stores attendance records
 
----
+payslips.txt – Stores generated payslips
 
-## 📊 Salary Calculation Logic
+📊 Salary Calculation Logic
+Full-Time Employees
+Fixed monthly salary
 
-### Full-Time Employees
-- Fixed monthly salary
-- Standard working days: 25
-- Grace days: 23
-- Tax deduction: 15%
-- Overtime bonus: Double pay for days worked beyond 25
+Standard working days: 25
 
-### Contract Employees
-- Paid on a per-day basis
-- Salary calculated up to 25 working days
-- Overtime bonus: Double pay for days worked beyond 25
-- Tax deduction: 10%
+Grace days: 23
 
----
+Tax deduction: 15%
 
-## ▶️ How to Run the Project
+Overtime bonus: Double pay for days worked beyond 25
 
-### 1. Clone the repository
-git clone https://github.com/your-username/employee-payroll-system.git
-### 2. Navigate to the project directory
-cd employee-payroll-system
-### 3. Run the application
-python main.py
+Contract Employees
+Paid on a per-day basis
 
----
+Salary calculated up to 25 working days
 
-## 📄 Data Files
-###
--employees.txt – Stores employee details
--attendance.txt – Stores attendance records
--payslips.txt – Stores generated payslips
+Overtime bonus: Double pay for days worked beyond 25
 
----
-## 🎯 Learning Outcomes
-###
--Implementation of Object-Oriented Programming concepts
--Practical usage of file handling in Python
--Real-world payroll system logic
--Modular and maintainable code design
+Tax deduction: 10%
+
+🎯 Learning Outcomes
+Implementation of Object-Oriented Programming concepts
+
+Practical usage of file handling in Python
+
+Real-world payroll system logic
+
+Modular and maintainable code design
