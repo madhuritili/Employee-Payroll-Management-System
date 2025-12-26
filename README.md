@@ -30,15 +30,14 @@ The application supports persistent data storage and generates payslips for empl
 
 1. **Clone the repository**
 git clone https://github.com/your-username/employee-payroll-system.git
-Navigate to the project directory
 
-Co
+2. **Navigate to the project directory**
 cd employee-payroll-system
-Run the application
 
-bash
-Copy code
+3. **Run the application**
 python main.py
+
+
 📂 Project Structure
 markdown
 Copy code
