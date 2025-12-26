@@ -32,10 +32,10 @@ The application supports persistent data storage and generates payslips for empl
 ## 📂 Project Structure
 
 employee-payroll-system/
-│
-├── main.py
-│
-├── payroll/
+-│
+-├── main.py
+-│
+-├── payroll/
 │ ├── init.py
 │ ├── employee.py
 │ └── payroll.py
