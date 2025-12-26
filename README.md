@@ -32,37 +32,20 @@ The application supports persistent data storage and generates payslips for empl
 ## 📂 Project Structure
 
 employee-payroll-system/
----
 │
----
 ├── main.py
----
 │
----
 ├── payroll/
----
 │ ├── init.py
----
 │ ├── employee.py
----
 │ └── payroll.py
----
 │
----
 ├── attendance/
----
 │ ├── init.py
----
-│ └── attendance.py
----
-│
----
+│ └── attendance.py│
 ├── employees.txt
----
 ├── attendance.txt
----
 ├── payslips.txt
----
 └── README.md
 
 
@@ -89,9 +72,9 @@ employee-payroll-system/
 
 ### 1. Clone the repository
 git clone https://github.com/your-username/employee-payroll-system.git
-2. Navigate to the project directory
+### 2. Navigate to the project directory
 cd employee-payroll-system
-3. Run the application
+### 3. Run the application
 python main.py
 
 ---
