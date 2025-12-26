@@ -1,7 +1,7 @@
 # Employee-Payroll-Management-System
 A Python-based console-driven employee payroll management system that calculates salaries using attendance data, employee type, tax deductions, and overtime bonuses, implemented with object-oriented programming principles.
 
-# Smart Employee Payroll Management System (SEPMS)
+# Employee Payroll Management System (SEPMS)
 
 ## 📌 Project Overview
 A console-driven employee payroll management system developed using Python and object-oriented programming to calculate salaries based on attendance, employee type, tax deductions, and overtime bonuses.  
@@ -32,21 +32,37 @@ The application supports persistent data storage and generates payslips for empl
 ## 📂 Project Structure
 
 employee-payroll-system/
+---
 │
+---
 ├── main.py
+---
 │
+---
 ├── payroll/
+---
 │ ├── init.py
+---
 │ ├── employee.py
+---
 │ └── payroll.py
+---
 │
+---
 ├── attendance/
+---
 │ ├── init.py
+---
 │ └── attendance.py
+---
 │
+---
 ├── employees.txt
+---
 ├── attendance.txt
+---
 ├── payslips.txt
+---
 └── README.md
 
 
@@ -72,30 +88,24 @@ employee-payroll-system/
 ## ▶️ How to Run the Project
 
 ### 1. Clone the repository
-```bash
 git clone https://github.com/your-username/employee-payroll-system.git
 2. Navigate to the project directory
-bash
-Copy code
 cd employee-payroll-system
 3. Run the application
-bash
-Copy code
 python main.py
 
+---
 
-📄 Data Files
-employees.txt – Stores employee details
+## 📄 Data Files
 
-attendance.txt – Stores attendance records
+-employees.txt – Stores employee details
+-attendance.txt – Stores attendance records
+-payslips.txt – Stores generated payslips
 
-payslips.txt – Stores generated payslips
+---
+## 🎯 Learning Outcomes
 
-🎯 Learning Outcomes
-Implementation of Object-Oriented Programming concepts
-
-Practical usage of file handling in Python
-
-Real-world payroll system logic
-
-Modular and maintainable code design
+-Implementation of Object-Oriented Programming concepts
+-Practical usage of file handling in Python
+-Real-world payroll system logic
+-Modular and maintainable code design
