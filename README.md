@@ -70,17 +70,20 @@ employee-payroll-system/
 ---
 
 ## ▶️ How to Run the Project
-1. Clone the repository:
+
+### 1. Clone the repository
 ```bash
 git clone https://github.com/your-username/employee-payroll-system.git
----
-## Navigate to the project directory:
+2. Navigate to the project directory
+bash
+Copy code
 cd employee-payroll-system
-
-Run the application:
+3. Run the application
+bash
+Copy code
 python main.py
 
----
+
 📄 Data Files
 employees.txt – Stores employee details
 
@@ -88,13 +91,11 @@ attendance.txt – Stores attendance records
 
 payslips.txt – Stores generated payslips
 
----
 🎯 Learning Outcomes
+Implementation of Object-Oriented Programming concepts
 
--Implementation of Object-Oriented Programming concepts
+Practical usage of file handling in Python
 
--Practical usage of file handling in Python
+Real-world payroll system logic
 
--Real-world payroll system logic
-
--Modular and maintainable code design
+Modular and maintainable code design
