@@ -36,11 +36,10 @@ cd employee-payroll-system
 
 3. **Run the application**
 python main.py
+---
 
+## 📂 Project Structure
 
-📂 Project Structure
-markdown
-Copy code
 employee-payroll-system/
 ├── main.py
 ├── payroll/
@@ -54,6 +53,8 @@ employee-payroll-system/
 ├── attendance.txt
 ├── payslips.txt
 └── README.md
+
+---
 📄 Data Files
 employees.txt – Stores employee details
 
