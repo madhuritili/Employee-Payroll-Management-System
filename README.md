@@ -57,33 +57,29 @@ employee-payroll-system/ <br>
 ---
 
 ## 📊 Salary Calculation Logic
-Full-Time Employees
-Fixed monthly salary
 
-Standard working days: 25
+### Full-Time Employees
+- Fixed monthly salary
+- Standard working days: 25
+- Grace days: 23
+- Tax deduction: 15%
+- Overtime bonus: Double pay for days worked beyond 25
 
-Grace days: 23
+### Contract Employees
+- Paid on a per-day basis
+- Salary calculated up to 25 working days
+- Overtime bonus: Double pay for days worked beyond 25
+- Tax deduction: 10%
 
-Tax deduction: 15%
-
-Overtime bonus: Double pay for days worked beyond 25
-
-Contract Employees
-Paid on a per-day basis
-
-Salary calculated up to 25 working days
-
-Overtime bonus: Double pay for days worked beyond 25
-
-Tax deduction: 10%
 
 ---
 ### 📄 Data Files
 employees.txt – Stores employee details
 
 attendance.txt – Stores attendance records
-
 payslips.txt – Stores generated payslips
+
+
 ---
 
 ### 🎯 Learning Outcomes
