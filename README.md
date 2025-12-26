@@ -80,14 +80,14 @@ python main.py
 ---
 
 ## 📄 Data Files
-
+###
 -employees.txt – Stores employee details
 -attendance.txt – Stores attendance records
 -payslips.txt – Stores generated payslips
 
 ---
 ## 🎯 Learning Outcomes
-
+###
 -Implementation of Object-Oriented Programming concepts
 -Practical usage of file handling in Python
 -Real-world payroll system logic
