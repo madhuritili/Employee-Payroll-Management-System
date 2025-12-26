@@ -40,29 +40,23 @@ python main.py
 
 ## 📂 Project Structure
 
-employee-payroll-system/
-├── main.py
-├── payroll/
-│   ├── __init__.py
-│   ├── employee.py
-│   └── payroll.py
-├── attendance/
-│   ├── __init__.py
-│   └── attendance.py
-├── employees.txt
-├── attendance.txt
-├── payslips.txt
-└── README.md
+employee-payroll-system/ <br>
+├── main.py <br>
+├── payroll/ <br>
+│   ├── __init__.py <br>
+│   ├── employee.py <br>
+│   └── payroll.py <br>
+├── attendance/ <br>
+│   ├── __init__.py <br>
+│   └── attendance.py <br>
+├── employees.txt <br>
+├── attendance.txt <br>
+├── payslips.txt <br>
+└── README.md <br>
 
 ---
-📄 Data Files
-employees.txt – Stores employee details
 
-attendance.txt – Stores attendance records
-
-payslips.txt – Stores generated payslips
-
-📊 Salary Calculation Logic
+## 📊 Salary Calculation Logic
 Full-Time Employees
 Fixed monthly salary
 
@@ -83,7 +77,16 @@ Overtime bonus: Double pay for days worked beyond 25
 
 Tax deduction: 10%
 
-🎯 Learning Outcomes
+---
+### 📄 Data Files
+employees.txt – Stores employee details
+
+attendance.txt – Stores attendance records
+
+payslips.txt – Stores generated payslips
+---
+
+### 🎯 Learning Outcomes
 Implementation of Object-Oriented Programming concepts
 
 Practical usage of file handling in Python
