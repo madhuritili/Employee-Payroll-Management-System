@@ -30,11 +30,11 @@ The application supports persistent data storage and generates payslips for empl
 ---
 
 ## 📂 Project Structure
-'''
-employee-payroll-system/
-│
-├── main.py
-│
+
+employee-payroll-system/<br>
+│<br>
+├── main.py<br>
+│<br>
 ├── payroll/
 │ ├── init.py
 │ ├── employee.py
@@ -47,7 +47,7 @@ employee-payroll-system/
 ├── attendance.txt
 ├── payslips.txt
 └── README.md
-'''
+
 
 ---
 
